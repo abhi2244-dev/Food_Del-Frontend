@@ -1,0 +1,50 @@
+.ExploreMenu{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ExploreMenu h1{
+    color:black;
+    font-weight: 500;
+}
+.ExploreMenu-text{
+max-width: 60%;
+color:#808080;
+}
+.ExploreMenu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 0px;
+    overflow-x: scroll;
+}
+.ExploreMenu-list::-webkit-scrollbar{
+    display: none;
+}
+.ExploreMenu-listItems{
+    width: 7.5vw;
+    min-width: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.ExploreMenu_ListItems p{
+    margin-top: 10px;
+    color: #747474;
+    font-size: max(1.4vw,16px);
+    cursor: pointer;
+}
+.ExploreMenu hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+}
+.ExploreMenu_ListItems .active{
+    border: 4px solid tomato;
+    padding: 2px;
+    border-radius: 50%;
+}
